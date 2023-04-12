@@ -40,13 +40,13 @@ void CALLBACK display()
 
 	float lungimeBrat = 2;
 	glTranslatef(-lungimeBrat / 2, 0.0, 0.0);
-	glRotatef((GLfloat)shoulder, 0.0, 0.0, 1.0);
+	glRotatef((GLfloat)shoulder, 0.0, 10.0, 10.0);
 	glTranslatef(lungimeBrat / 2, 0.0, 0.0);
 	auxWireBox(lungimeBrat, 0.4, 1.0);
 
 	float lungimeAntebrat = 1.5;
 	glTranslatef(lungimeBrat / 2, 0.0, 0.0);
-	glRotatef((GLfloat)elbow, 0.0, 0.0, 1.0);
+	glRotatef((GLfloat)elbow, 0.0, 10.0, 0.0);
 	glTranslatef(lungimeAntebrat / 2, 0.0, 0.0);
 	auxWireBox(lungimeAntebrat, 0.4, 1.0);
 
